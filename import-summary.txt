@@ -1,0 +1,100 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+From tesseract-android-tools:
+* .gitignore
+* COPYING
+* README
+* build.xml
+* data\
+* data\tesseract\
+* data\tesseract\tessdata\
+* data\tesseract\tessdata\eng.cube.bigrams
+* data\tesseract\tessdata\eng.cube.fold
+* data\tesseract\tessdata\eng.cube.lm
+* data\tesseract\tessdata\eng.cube.nn
+* data\tesseract\tessdata\eng.cube.params
+* data\tesseract\tessdata\eng.cube.size
+* data\tesseract\tessdata\eng.cube.word-freq
+* data\tesseract\tessdata\eng.tesseract_cube.nn
+* data\tesseract\tessdata\eng.traineddata
+* dependencies.sh
+* languages.sh
+* proguard-project.txt
+From tesseract-android-tools-test:
+* README
+* build.xml
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+In tesseract-android-tools:
+* AndroidManifest.xml => tesseractandroidtools\src\main\AndroidManifest.xml
+* jni\ => tesseractandroidtools\src\main\jni\
+* libs\arm64-v8a\libjpgt.so => tesseractandroidtools\src\main\jniLibs\arm64-v8a\libjpgt.so
+* libs\arm64-v8a\liblept.so => tesseractandroidtools\src\main\jniLibs\arm64-v8a\liblept.so
+* libs\arm64-v8a\libpngt.so => tesseractandroidtools\src\main\jniLibs\arm64-v8a\libpngt.so
+* libs\arm64-v8a\libtess.so => tesseractandroidtools\src\main\jniLibs\arm64-v8a\libtess.so
+* libs\armeabi-v7a\libjpgt.so => tesseractandroidtools\src\main\jniLibs\armeabi-v7a\libjpgt.so
+* libs\armeabi-v7a\liblept.so => tesseractandroidtools\src\main\jniLibs\armeabi-v7a\liblept.so
+* libs\armeabi-v7a\libpngt.so => tesseractandroidtools\src\main\jniLibs\armeabi-v7a\libpngt.so
+* libs\armeabi-v7a\libtess.so => tesseractandroidtools\src\main\jniLibs\armeabi-v7a\libtess.so
+* libs\armeabi\libjpgt.so => tesseractandroidtools\src\main\jniLibs\armeabi\libjpgt.so
+* libs\armeabi\liblept.so => tesseractandroidtools\src\main\jniLibs\armeabi\liblept.so
+* libs\armeabi\libpngt.so => tesseractandroidtools\src\main\jniLibs\armeabi\libpngt.so
+* libs\armeabi\libtess.so => tesseractandroidtools\src\main\jniLibs\armeabi\libtess.so
+* libs\mips64\libjpgt.so => tesseractandroidtools\src\main\jniLibs\mips64\libjpgt.so
+* libs\mips64\liblept.so => tesseractandroidtools\src\main\jniLibs\mips64\liblept.so
+* libs\mips64\libpngt.so => tesseractandroidtools\src\main\jniLibs\mips64\libpngt.so
+* libs\mips64\libtess.so => tesseractandroidtools\src\main\jniLibs\mips64\libtess.so
+* libs\mips\libjpgt.so => tesseractandroidtools\src\main\jniLibs\mips\libjpgt.so
+* libs\mips\liblept.so => tesseractandroidtools\src\main\jniLibs\mips\liblept.so
+* libs\mips\libpngt.so => tesseractandroidtools\src\main\jniLibs\mips\libpngt.so
+* libs\mips\libtess.so => tesseractandroidtools\src\main\jniLibs\mips\libtess.so
+* libs\x86\libjpgt.so => tesseractandroidtools\src\main\jniLibs\x86\libjpgt.so
+* libs\x86\liblept.so => tesseractandroidtools\src\main\jniLibs\x86\liblept.so
+* libs\x86\libpngt.so => tesseractandroidtools\src\main\jniLibs\x86\libpngt.so
+* libs\x86\libtess.so => tesseractandroidtools\src\main\jniLibs\x86\libtess.so
+* libs\x86_64\libjpgt.so => tesseractandroidtools\src\main\jniLibs\x86_64\libjpgt.so
+* libs\x86_64\liblept.so => tesseractandroidtools\src\main\jniLibs\x86_64\liblept.so
+* libs\x86_64\libpngt.so => tesseractandroidtools\src\main\jniLibs\x86_64\libpngt.so
+* libs\x86_64\libtess.so => tesseractandroidtools\src\main\jniLibs\x86_64\libtess.so
+* res\ => tesseractandroidtools\src\main\res\
+* src\ => tesseractandroidtools\src\main\java\
+In tesseract-android-tools-test:
+* AndroidManifest.xml => tesseractandroidtoolstest\src\main\AndroidManifest.xml
+* res\ => tesseractandroidtoolstest\src\main\res\
+* src\ => tesseractandroidtoolstest\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

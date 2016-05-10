@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_00f879ff64eeb113f737fb86afb8a88f8ec2f1e6.jar" />
+    </item>
+    <item
+        jar="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_911f21c20e57290d23777762e598b4c184bf36d5.jar" />
+    </item>
+    <item
+        jar="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.1_95f60438705be33cd297bfbba76e714baa723404.jar" />
+    </item>
+    <item
+        jar="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_8ea576edbf91e60c55d603a97786998a349879b3.jar" />
+    </item>
+    <item
+        jar="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_84a34b94d7b4c30fc67d2f6716071d00a7d580c5.jar" />
+    </item>
+    <item
+        jar="E:\vijay\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_3797162e9709df00be11375cf964a6298cdd6ba7.jar" />
+    </item>
+    <item
+        jar="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\exploded-aar\tesseract-android-tools-test\tesseractandroidtools\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dac4eec76e80abe90a1cff5df8944aca2dec0a61">
+        <dex dex="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\pre-dexed\debug\tesseract-android-tools-test-tesseractandroidtools-unspecified_147e96baac8a6f7236b30a58f0430d98ecf02aa0.jar" />
+    </item>
+    <item
+        jar="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\pre-dexed\debug\de.hdodenhof-circleimageview-2.0.0_fa6e5904a891e276228663a9f880969571dc1c79.jar" />
+    </item>
+    <item
+        jar="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_77607408a29095bcf6a53957fcbf09a88aa070f2.jar" />
+    </item>
+    <item
+        jar="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="E:\tesseract-android-tools-test\tesseractandroidtoolstest\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.1_8edaecc97434771db4eb9bd131bd72babdba94c0.jar" />
+    </item>
+
+</items>
